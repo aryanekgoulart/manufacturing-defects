@@ -121,7 +121,7 @@ with col_graf1:
 with col_graf2:
     if not df_filtrado.empty:
         distr_ano_mes = px.area(custo_reparo_mes, x='ano_mes', y='total_custo_reparo',
-                title='Custo de Reparo por Ano/Mês',
+                title='Custo de Reparo por Mês/Ano',
                 labels={'ano_mes': 'Mês/Ano', 'total_custo_reparo': 'Custo'},
                 color_discrete_sequence=px.colors.sequential.Viridis,
                 text='total_custo_reparo',
@@ -161,4 +161,5 @@ with col_graf4:
 st.subheader("Dados Detalhados")
 
 st.dataframe(df_filtrado)
+
 
