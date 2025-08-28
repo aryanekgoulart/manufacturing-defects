@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv("https://raw.githubusercontent.com/aryanekgoulart/manufacturing-defects/refs/heads/main/defects_data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/aryanekgoulart/manufacturing-defects/refs/heads/main/defects_data_final.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
@@ -159,4 +159,5 @@ with col_graf4:
 
 # --- Tabela de Dados Detalhados ---
 st.subheader("Dados Detalhados")
+
 st.dataframe(df_filtrado)
