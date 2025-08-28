@@ -102,7 +102,7 @@ with col_graf1:
             top_10,
             x="id_produto",
             y="defect_count",
-            title="Top 10: Número de Defeitos (Barras Verticais)",
+            title="Top 10: Número de Defeitos",
             labels={"id_produto": "ID Produto", "defect_count": "Número de Defeitos"},
             color="defect_count",
             color_continuous_scale="viridis",
@@ -161,3 +161,4 @@ with col_graf4:
 st.subheader("Dados Detalhados")
 
 st.dataframe(df_filtrado)
+
