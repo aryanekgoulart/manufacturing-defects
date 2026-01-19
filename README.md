@@ -14,11 +14,11 @@ Este projeto tem foco em Análise de Dados aplicada à indústria, servindo tamb
 
 # 🗂️ Estrutura do Projeto
 manufacturing-defects/
-├── .devcontainer/               # Configurações de ambiente (opcional)
-├── Manufacturing_Defects.ipynb  # Análise exploratória dos dados
-├── app.py                       # Aplicação para visualização interativa
-├── defects_data_final.csv       # Dataset de defeitos de fabricação
-├── requirements.txt             # Dependências do projeto
+- .devcontainer/               # Configurações de ambiente (opcional)
+- Manufacturing_Defects.ipynb  # Análise exploratória dos dados
+- app.py                       # Aplicação para visualização interativa
+- defects_data_final.csv       # Dataset de defeitos de fabricação
+- requirements.txt             # Dependências do projeto
 
 # 📊 Análise Exploratória
 
